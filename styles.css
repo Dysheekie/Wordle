@@ -1,0 +1,81 @@
+body, html {
+  	background: #111;
+  	color: white;
+  	font-family: sans-serif;
+   	text-align: center;
+   	text-transform: uppercase;
+  }
+
+  h1 {
+  	font-size: 42px;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  }
+
+  #alphabet {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  #grid {
+    margin-top: 15px;
+  }
+
+  .cell {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin: 6px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .alpha-cell-new {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .alpha-cell-found {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #538d4e;
+  }
+
+  .alpha-cell-miss {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #b59f3b;
+  }
+
+  .alpha-cell-none {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #333;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: #333;
+  }
