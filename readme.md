@@ -15,7 +15,7 @@
   <button style='display: none;' type="button" onclick="javascript:window.location.href = window.location.href;">RESTART THE GAME</button>
   <div id="grid"></div>
   <div><button id="openKeyboard">Open Keyboard</button></div>
-  <input id="hiddenInput" style="visibility: hidden;">
+  <input id="hiddenInput" style="visibility: hidden; font-size:16px;">
 <script src="index.js"></script>
 </body>
 </html>
