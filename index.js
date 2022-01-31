@@ -5945,10 +5945,10 @@ function updateGrid() {
 
   if (gameIsFinished()) {
     window.removeEventListener('keydown', handleKeyDown)
-    document.querySelectorAll('button').forEach(function(el) {
+    /*document.querySelectorAll('button').forEach(function(el) {
         el.style.display = 'none'
     });
-    [...document.querySelectorAll('button')].pop().style.display = 'inline-block';
+    [...document.querySelectorAll('button')].pop().style.display = 'inline-block'; */
   }
 }
 

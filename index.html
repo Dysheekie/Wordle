@@ -9,12 +9,12 @@
   <h3>Press 'ENTER' to guess</h3>
   <div id="warning"></div>
   <div id="alphabet"></div>
-  <button type="button" onclick="javascript:window.dispatchEvent(new KeyboardEvent('keydown',{'key':'enter'}));">ENTER</button>
-  <button type="button" onclick="javascript:window.dispatchEvent(new KeyboardEvent('keydown',{'key':'backspace'}));">BACKSPACE</button>
-  <button type="button" onclick="javascript:window.location.href = window.location.href;">START NEW GAME</button>
+  <!-- <button type="button" onclick="javascript:window.dispatchEvent(new KeyboardEvent('keydown',{'key':'enter'}));">ENTER</button> -->
+  <!--<button type="button" onclick="javascript:window.dispatchEvent(new KeyboardEvent('keydown',{'key':'backspace'}));">BACKSPACE</button> -->
+  <div><button id="openKeyboard">Keyboard</button>
+  <input id="hiddenInput" style="width:1px;visibility:hidden;font-size:16px;">
+  <button type="button" onclick="javascript:window.location.href = window.location.href;">START NEW GAME</button></div>
   <div id="grid"></div>
-  <div><button id="openKeyboard">Keyboard</button></div>
-  <input id="hiddenInput" style="visibility: hidden;font-size:16px;">
 <script src="index.js"></script>
 </body>
 </html>
