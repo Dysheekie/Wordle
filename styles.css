@@ -33,49 +33,57 @@ body, html {
   }
 
   .alpha-cell-new {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     border: 1px solid #aaa;
     display: inline-block;
-    margin: 5px;
+    margin: 3px;
     font-size: 20px;
     font-weight: bold;
   }
 
   .alpha-cell-found {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     border: 1px solid #aaa;
     display: inline-block;
-    margin: 5px;
+    margin: 3px;
     font-size: 20px;
     font-weight: bold;
     background-color: #538d4e;
   }
 
   .alpha-cell-miss {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     border: 1px solid #aaa;
     display: inline-block;
-    margin: 5px;
+    margin: 3px;
     font-size: 20px;
     font-weight: bold;
     background-color: #b59f3b;
   }
 
   .alpha-cell-none {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     border: 1px solid #333;
     display: inline-block;
-    margin: 5px;
+    margin: 3px;
     font-size: 20px;
     font-weight: bold;
     background-color: black;
     color: #333;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-right:5px;
   }
