@@ -5760,6 +5760,13 @@ let wordList = [
 'pupal',
 ];
 
+document.getElementById('openKeyboard').addEventListener('click', function(){
+    var inputElement = document.getElementById('hiddenInput');
+    inputElement.style.visibility = 'visible'; // unhide the input
+    inputElement.focus(); // focus on it so keyboard pops
+    inputElement.style.visibility = 'hidden'; // hide it again
+});
+
 let invalidLetterBgColor = '#212121';
 let randomIndex = Math.floor(Math.random() * wordList.length)
 let secret = wordList[randomIndex]
@@ -5797,7 +5804,6 @@ function handleKeyDown(e) {
 
   // If the user pressed the Enter key to submit the word...
   if (letter === 'enter') {
-    guess++;
     if (currentAttempt.length < 5) {
       warnUser('<p style="color:red">Word must be 5 characters</p>')
       return
@@ -5807,6 +5813,7 @@ function handleKeyDown(e) {
       return
     }
     //submit the current attempt
+    guess++;
     buildAlphabet(currentAttempt)
     history.push(currentAttempt)
     currentAttempt = ''
@@ -5931,6 +5938,7 @@ function updateGrid() {
     row = row.nextSibling
   }
   drawAttempt(row, currentAttempt, true)
+
   if (gameIsFinished()) {
     window.removeEventListener('keydown', handleKeyDown)
     document.querySelectorAll('button').forEach(function(el) {
