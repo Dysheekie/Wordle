@@ -13,7 +13,7 @@
   <button type="button" onclick="javascript:window.dispatchEvent(new KeyboardEvent('keydown',{'key':'backspace'}));">BACKSPACE</button>
   <button style='display: none;' type="button" onclick="javascript:window.location.href = window.location.href;">RESTART THE GAME</button>
   <div id="grid"></div>
-  <button id="openKeyboard">Open Keyboard</button>
+  <div><button id="openKeyboard">Open Keyboard</button></div>
   <input id="hiddenInput" style="visibility: hidden;">
 <script src="index.js"></script>
 </body>
