@@ -1,5 +1,12 @@
 'use strict'
 
+document.getElementById('openKeyboard').addEventListener('click', function(){
+    var inputElement = document.getElementById('hiddenInput');
+    inputElement.style.visibility = 'visible'; // unhide the input
+    inputElement.focus(); // focus on it so keyboard pops
+    inputElement.style.visibility = 'hidden'; // hide it again
+});
+
 let wordList = [
 'which',
 'there',
@@ -5759,13 +5766,6 @@ let wordList = [
 'biffy',
 'pupal',
 ];
-
-document.getElementById('openKeyboard').addEventListener('click', function(){
-    var inputElement = document.getElementById('hiddenInput');
-    inputElement.style.visibility = 'visible'; // unhide the input
-    inputElement.focus(); // focus on it so keyboard pops
-    inputElement.style.visibility = 'hidden'; // hide it again
-});
 
 let invalidLetterBgColor = '#212121';
 let randomIndex = Math.floor(Math.random() * wordList.length)
