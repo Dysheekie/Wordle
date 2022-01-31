@@ -5859,6 +5859,7 @@ function buildAlphabet(currentAttempt = null) {
       row = document.createElement('div')
       row.style.display = 'flex'
       row.style.justifyContent = 'center'
+      row.style.flexWrap = 'wrap'
     }
     else {
       row = document.getElementById('alphabet').firstChild;
@@ -5867,6 +5868,7 @@ function buildAlphabet(currentAttempt = null) {
     // loop through each letter
     var indx = 0;
     var cell = null
+
     getAlphabet().forEach(function(letter) {
       if(currentAttempt == null) {
         cell = document.createElement('div')
@@ -5908,6 +5910,8 @@ function buildAlphabet(currentAttempt = null) {
       //  cell.textContent = ''
       //}
       if(currentAttempt == null) {
+        if(letter === "M") {
+        }
         row.appendChild(cell)
       }
     })

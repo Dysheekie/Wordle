@@ -11,7 +11,7 @@
   <div id="alphabet"></div>
   <button type="button" onclick="javascript:window.dispatchEvent(new KeyboardEvent('keydown',{'key':'enter'}));">ENTER</button>
   <button type="button" onclick="javascript:window.dispatchEvent(new KeyboardEvent('keydown',{'key':'backspace'}));">BACKSPACE</button>
-  <button style='display: none;' type="button" onclick="javascript:window.location.href = window.location.href;">RESTART THE GAME</button>
+  <button type="button" onclick="javascript:window.location.href = window.location.href;">START NEW GAME</button>
   <div id="grid"></div>
   <div><button id="openKeyboard">Open Keyboard</button></div>
   <input id="hiddenInput" style="visibility: hidden; font-size:16px;">
