@@ -28,14 +28,14 @@ body, html {
     border: 1px solid #aaa;
     display: inline-block;
     margin: 6px;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
   }
 
   .alpha-cell-new {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     border: 1px solid #aaa;
     display: inline-block;
     margin: 3px;
@@ -44,9 +44,9 @@ body, html {
   }
 
   .alpha-cell-found {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     border: 1px solid #aaa;
     display: inline-block;
     margin: 3px;
@@ -56,9 +56,9 @@ body, html {
   }
 
   .alpha-cell-miss {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     border: 1px solid #aaa;
     display: inline-block;
     margin: 3px;
@@ -68,9 +68,9 @@ body, html {
   }
 
   .alpha-cell-none {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     border: 1px solid #333;
     display: inline-block;
     margin: 3px;
@@ -83,7 +83,7 @@ body, html {
   button {
     width: 250px;
     height: 50px;
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 5px;
     margin-right:5px;
   }

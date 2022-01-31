@@ -5784,6 +5784,7 @@ updateGrid()
 
 window.addEventListener('keydown', handleKeyDown)
 window.addEventListener('click', handleClick)
+window.addEventListener('touchstart', handleClick)
 
 function handleClick(e) {
     if (!e.target.className.startsWith('alpha-cell')) {
